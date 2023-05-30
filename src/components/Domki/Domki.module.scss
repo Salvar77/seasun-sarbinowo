@@ -1,0 +1,132 @@
+.heroImg {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	z-index: -1;
+	filter: brightness(0.9);
+}
+
+.heroText {
+	font-family: 'cormorant garamond', serif;
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 700;
+	margin-bottom: 3rem;
+}
+
+.title {
+	font-family: 'cormorant garamond', serif;
+	font-size: 4rem;
+	font-weight: 700;
+	margin: 4rem 0;
+	padding: 2rem;
+	text-align: center;
+}
+.subtitle {
+	font-family: 'cormorant garamond', serif;
+	font-size: clamp(3rem, 4vw, 4rem);
+	font-weight: 700;
+	padding: 2rem;
+	margin: 3rem 0;
+	text-align: center;
+}
+.info {
+	width: 100%;
+	padding: 2rem;
+	max-width: 1200px;
+	margin: 0 auto;
+	font-size: 1.6rem;
+	p {
+		margin: 1rem 0;
+	}
+}
+.carousel {
+	width: 100%;
+	height: 100%;
+
+	.imgBox{
+		width: 100%;
+		height: 100%;
+	}
+	.image{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		aspect-ratio: 3/2;
+	}
+}
+.infog{
+	background-color: #dedede;
+    box-shadow: 0 0 0 100vmax #dedede;
+    clip-path: inset(0 -100vmax);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	.button{
+		margin: 2rem 0 4rem 0;
+		background-color: #BF9B2E;
+		color: #fff;
+		font-family: 'cormorant garamond', serif;
+		padding: 1rem 2rem;
+		border-radius: 5px;
+		font-size: 2.8rem;
+		font-weight: 700;
+		transition: bacground-color 0.3s ease-in-out, color 0.3s ease-in-out;
+		&:hover{
+			background-color: #fff;
+			color: #BF9B2E;
+			cursor: pointer;
+		}
+
+	}
+}
+.infoGraph{
+	width: 100%;
+	max-width: 1440px;
+	margin: 3rem auto;
+	padding: 2rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+
+	&__item{
+		display: flex;
+		width: 100%;
+		max-width: 300px;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		margin: 1rem;
+		@media (max-width: 768px){
+			max-width: 250px
+		}
+	
+		&__img{
+			margin: 1rem 0;
+		}
+		&__text{
+			font-size: 1.6rem;
+			text-align: center;
+			h3{
+				font-size: 2.4rem;
+				font-family: 'cormorant garamond', serif;
+				font-weight: 600;
+				color: #836c27;
+			}
+			p{
+				margin: 1rem 0;
+
+			}
+		}
+	}
+
+}

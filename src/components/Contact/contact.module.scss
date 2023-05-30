@@ -1,0 +1,119 @@
+
+.contact{
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        max-width: 1200px;
+        margin: 0 auto;
+        flex: 1;
+        @media (min-width: 992px){
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    &__title{
+        font-size: clamp(2rem, 5vw, 3rem);
+        font-family: cantora one, sans-serif;
+        text-align: center;
+        margin-bottom: 5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    
+        
+    }
+    &__title{
+        font-family: 'cormorant garamond', serif;
+        font-size: clamp(2rem, 5vw, 2.6rem);
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+   img{
+    margin-right: 1rem;
+   }
+    &__item{
+        display: flex;
+        justify-self: start;
+        align-items: center;
+        font-size: clamp(1.5rem, 5vw, 2rem);
+        padding: 0.5em;
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: center;
+        padding-top: 8rem;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        @media (min-width: 992px){
+            padding-top: 3rem;
+        }
+        &__label{
+            font-size: clamp(1.5rem, 5vw, 2rem);
+        }
+        &__input{
+            width: 100%;
+          
+            margin-bottom: 2rem;
+            padding: 1rem;
+            font-size: 1.5rem;
+            border: none;
+            border-bottom: 1px solid #000;
+            outline: none;
+            transition: all 0.3s ease;
+            &:focus{
+                border-bottom: 1px solid rgb(117, 117, 117);
+            }
+        }
+        &__textarea{
+           min-width: 100%;
+           max-width: 100%;
+            min-height: 150px;
+
+            margin-bottom: 2rem;
+            padding: 1rem;
+            font-size: 1.5rem;
+            border: none;
+            border-bottom: 1px solid #000;
+            outline: none;
+            transition: all 0.3s ease;
+            &:focus{
+                border-bottom: 1px solid rgb(117, 117, 117);
+            }
+        }
+        &__button{
+            align-self: flex-end;
+            width: 50%;
+            padding: 1rem;
+            font-size: 1.5rem;
+            border: none;
+            background-color: #000;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            transition: backgroud-color 0.3s ease;
+            &:hover{
+                background-color: rgb(59, 59, 59);
+            }
+        }
+    }
+}

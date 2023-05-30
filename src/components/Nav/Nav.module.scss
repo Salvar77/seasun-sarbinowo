@@ -1,0 +1,238 @@
+.lang{
+    &__list{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #444;
+        @media (max-width:992px){          
+            flex-direction: row;
+            transform: translateX(-50%);
+            z-index: 100;
+            padding: 2rem;
+        }
+ 
+
+    }
+    &__link{
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: all 0.3s ease-out;
+        &:hover{
+            color: #000;
+        }
+    }
+    &__button{
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        font-size: 1.5rem;
+        cursor: pointer;
+        outline: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &_span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+        }
+    }
+    
+
+}
+.nav {
+    position: fixed;
+    background-color: #303030;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+
+}
+
+.nav_container {
+    height: 100px;
+    width: 96%;
+    max-width:1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem;
+    @media (max-width: 400px){
+        justify-content: start;
+        
+      
+    }
+}
+.nav_logoimg{
+    width: auto;
+    height: 90px;
+    @media (max-width: 400px){
+        height: 70px;
+    }
+
+}
+.nav__links_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    z-index: 100;
+    font-size: 1.8rem;
+}
+.nav_links_desktop {
+    font-size: 2rem;
+    padding: 0 2rem;
+}
+
+.nav_link{
+    padding: clamp(0.8rem, 0.9vw , 1.5rem);
+    text-align: center;
+
+}
+.nav_mobile{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;   
+    height: 100vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030;
+    z-index: 100;
+}
+.nav_mobile__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    font-size: 2rem;
+   
+}
+.nav_mobile__link{
+    padding: 1rem;
+    z-index: 100;
+    list-style: none;
+}
+
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    z-index: 101;
+}
+.button_box {
+    position: absolute;
+    top: 15%;
+    right: 0;
+
+	display: flex;
+	font-size: 3rem;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	color: #fff;
+	max-width: 50%;
+	font-weight: bold;
+	padding: 0.3em;
+	z-index: 1011;
+}
+
+.button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+    padding: 2rem;
+	z-index: 102;
+	cursor: pointer;
+}
+
+.burger,
+.burger::after,
+.burger::before {
+	content: '';
+	height: 0.1em;
+	width: 1em;
+	background-color: #fff;
+	transition: transform 0.3s ease-out;
+}
+.burger {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 8px;
+	transition: transform 0.3s;
+	&::after {
+		position: absolute;
+		transform: translatey(0.3em);
+	}
+
+	&::before {
+		transform: translateY(-0.3em);
+	}
+}
+.button_box.active {
+	.burger {
+		background-color: transparent;
+	}
+	.burger::before {
+		transform: rotate(-45deg);
+	}
+	.burger::after {
+		transform: rotate(45deg);
+	}
+}
+
+.slide{
+    animation: slide 0.5s forwards;
+}
+.slide_up{
+    animation: slide_up 0.5s forwards;
+}
+
+@keyframes slide {
+    from{
+        transform: translateY(-105%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide_up {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-105%);
+    }
+}
+@media (max-width:992px){
+    .lang{
+        margin-top: 2rem;
+    }
+}
