@@ -92,6 +92,7 @@ const Gallery = () => {
 				toggler={lightboxController.toggler}
 				sources={images.map((image) =>  
 				<Image
+					key={image.number}
 					src={image.src}
 					alt="Sea & Sun - domki letniskowe Sarbinowo"
 					onClick={() => openLightboxOnSlide(image.number)}
