@@ -14,9 +14,11 @@ const MainPage = () => {
 			<div className={classes.heroText}>
 				<h1>Sea&Sun Sarbinowo</h1>
 			</div>
-			<div className={classes.calendar}>
-				<h2>Kalendarz rezerwacji</h2>
-			</div>
+			<Link href='/contact' className={classes.reservation}>
+				Rezerwacja 
+			</Link>
+
+
 			<div className={classes.iconBox}>
 				
 					<Link href='https://facebook.com' target='_blank' className={classes.icon}>

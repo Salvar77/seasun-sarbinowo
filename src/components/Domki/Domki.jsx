@@ -1,4 +1,5 @@
 import classes from './Domki.module.scss';
+import Link from 'next/link';
 import Image from 'next/image';
 import Img1 from '@/assets/images/Sea_Sun_www-1.jpg';
 import Img2 from '@/assets/images/Sea_Sun_www-2.jpg';
@@ -16,7 +17,6 @@ import Img13 from '@/assets/images/Sea_Sun_www-13.jpg';
 import Img14 from '@/assets/images/Sea_Sun_www-14.jpg';
 import Img15 from '@/assets/images/Sea_Sun_www-15.jpg';
 
-
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -31,8 +31,6 @@ import plant from './img/plant.png';
 import bedSheets from './img/bedSheets.png';
 import umbrella from './img/umbrella.png';
 import smartTv from './img/smartTv.png';
-
-
 
 const Domki = () => {
 	const images = [
@@ -88,8 +86,6 @@ const Domki = () => {
 			src: Img15,
 			alt: 'Sea & Sun - domki letniskowe Sarbinowo',
 		},
-
-
 	];
 	const settings = {
 		infinite: true,
@@ -135,7 +131,7 @@ const Domki = () => {
 
 	return (
 		<>
-		<h2 className={classes.subtitle}> Sea & Sun Sarbinowo</h2>
+			<h2 className={classes.subtitle}> Sea & Sun Sarbinowo</h2>
 			<div className={classes.info}>
 				<p>
 					Sea & Sun to nowo wybudowane, klimatyzowane, komfortowe domki na
@@ -201,22 +197,59 @@ const Domki = () => {
 					</div>
 				))}
 			</Slider>
-      <div className={classes.infog}>
-			  <div className={classes.infoGraph}>
-          <InfoGraph  src={parking} title='Parking' text='Bezpłatne i wygodne miejsca parkingowe.' />
-          <InfoGraph  src={bedSheets} title='Świeża pościel i ręczniki' text='Zapewniamy świeżą pościel i miękkie ręczniki.' />
-          <InfoGraph  src={snow} title='Klimatyzacja' text='Świeże i komfortowe wnętrze.' />
-          <InfoGraph  src={playground} title='Plac zabaw' text='Zabawa i relaks dla najmłodszych.' />
-          <InfoGraph  src={wifi} title='Wifi' text='Stałe połączenie online' />
-          <InfoGraph  src={plant} title='Prywatny ogródek z tarasem ' text='Każdy domek posiada prywatny ogródek z tarasem.' />
-          <InfoGraph  src={mute} title='Spokojna lokalizacja' text='Odpoczynek w cichej i urokliwej okolicy.' />
-          <InfoGraph  src={camera} title='Monitoring i ogrodzenie' text=' Bezpieczeństwo i prywatność.' />
-          <InfoGraph  src={umbrella} title='Bliskość plaży' text='Krótki spacer do pięknej, piaszczystej plaży' />
-          <InfoGraph  src={smartTv} title='Smart TV' text='Telewizja kablowa oraz Netflix na wyciągnięcie ręki' />
-         
-      </div>
-            <button className={classes.button}>Sprawdź dostępność</button>
-      </div>
+			<div className={classes.infog}>
+				<div className={classes.infoGraph}>
+					<InfoGraph
+						src={parking}
+						title='Parking'
+						text='Bezpłatne i wygodne miejsca parkingowe.'
+					/>
+					<InfoGraph
+						src={bedSheets}
+						title='Świeża pościel i ręczniki'
+						text='Zapewniamy świeżą pościel i miękkie ręczniki.'
+					/>
+					<InfoGraph
+						src={snow}
+						title='Klimatyzacja'
+						text='Świeże i komfortowe wnętrze.'
+					/>
+					<InfoGraph
+						src={playground}
+						title='Plac zabaw'
+						text='Zabawa i relaks dla najmłodszych.'
+					/>
+					<InfoGraph src={wifi} title='Wifi' text='Stałe połączenie online' />
+					<InfoGraph
+						src={plant}
+						title='Prywatny ogródek z tarasem '
+						text='Każdy domek posiada prywatny ogródek z tarasem.'
+					/>
+					<InfoGraph
+						src={mute}
+						title='Spokojna lokalizacja'
+						text='Odpoczynek w cichej i urokliwej okolicy.'
+					/>
+					<InfoGraph
+						src={camera}
+						title='Monitoring i ogrodzenie'
+						text=' Bezpieczeństwo i prywatność.'
+					/>
+					<InfoGraph
+						src={umbrella}
+						title='Bliskość plaży'
+						text='Krótki spacer do pięknej, piaszczystej plaży'
+					/>
+					<InfoGraph
+						src={smartTv}
+						title='Smart TV'
+						text='Telewizja kablowa oraz Netflix na wyciągnięcie ręki'
+					/>
+				</div>
+				<Link href='/contact' className={classes.button}>
+					Rezerwacja
+				</Link>
+			</div>
 		</>
 	);
 };

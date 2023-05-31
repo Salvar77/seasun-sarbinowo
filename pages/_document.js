@@ -18,11 +18,11 @@ export default function Document({ locale }) {
 				<meta name='author' content='Kacper Czosnowski' />
 				<meta
 					name='Description'
-					content='NestCore to firma informatyczna, która zajmuje się tworzeniem aplikacji i stron internetowych oraz oferuje kompleksową obsługę informatyczną dla firm. Naszym celem jest zapewnienie klientom nowoczesnych i funkcjonalnych narzędzi, które pomogą w osiągnięciu ich biznesowych celów. Skontaktuj się z nami, aby poznać naszą ofertę!'
+					content='uzupełnić'
 				/>
 				<meta
 					name='keywords'
-					content='Usługi informatyczne, pomoc zdalna, tworzenie aplikacji, strony internetowe, oprogramowanie, usługi z drona'
+					content='uzupełnić'
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>

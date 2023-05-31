@@ -17,9 +17,6 @@ const Nav_desktop = ({ locale }) => {
 				<Link className={classes.nav_link} href={`/special_offert`}>
 					Oferta specjalna
 				</Link>
-				<Link className={classes.nav_link} href={`/gallery`}>
-					Galeria
-				</Link>
 			</div>
 			
 				<Link href={`/`}>
@@ -31,15 +28,18 @@ const Nav_desktop = ({ locale }) => {
 				</Link>
 	
 			<div className={classes.nav__links_box}>
+				<Link className={classes.nav_link} href={`/gallery`}>
+					Galeria
+				</Link>
 				<Link className={classes.nav_link} href={`/regulations`}>
 					Regulamin
 				</Link>
 				<Link className={classes.nav_link} href={`/contact`}>
 					Kontakt
 				</Link>
-				<Link className={classes.nav_link} href={`/bookings`}>
+				{/* <Link className={classes.nav_link} href={`/bookings`}>
 					Rezerwacja
-				</Link>
+				</Link> */}
 	
 				<SelectLanguage locale={locale} />
 			</div>

@@ -22,9 +22,9 @@ const Nav = ({locale}) => {
 		<header className={classes.nav}>
 		
 				{width >= 992 ? (
-					<Nav_desktop  locale={locale} />
+					<Nav_desktop locale={locale} />
 				) : (
-					<Nav_mobile locale={locale}  />
+					<Nav_mobile locale={locale} />
 				)}
 		
 		</header>

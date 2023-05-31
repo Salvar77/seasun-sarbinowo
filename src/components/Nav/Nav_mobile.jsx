@@ -57,9 +57,9 @@ function Nav_mobile({ lng, t}) {
 							<li className={classes.nav_mobile__link} onClick={toggleNav}>
 								<Link href={`/contact`}>Kontakt</Link>
 							</li>
-							<li className={classes.nav_mobile__link} onClick={toggleNav}>
+							{/* <li className={classes.nav_mobile__link} onClick={toggleNav}>
 								<Link href={`/bookings`}>Rezerwacja</Link>
-							</li>
+							</li> */}
 
 
 						</ul>

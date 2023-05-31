@@ -22,19 +22,22 @@ const Contact = () => {
 
 	return (
 		<div className={classes.contact}>
+			<h1 className={classes.contact__header}>Rezerwacje</h1>
+			<p className={classes.contact__paragraph}>
+			Aby dokonać rezerwacji, oferujemy dwa wygodne sposoby kontaktu: telefoniczny lub za pomocą formularza kontaktowego.
+			</p>
 			<div className={classes.container}>
 				<div className={classes.contact__info}>
 					<span className={classes.contact__title}> Sea&Sun Sarbinowo</span>
-					<span className={classes.contact__item}>00 - 000 Sarbinowo </span>
+					<span className={classes.contact__item}>76-034 Sarbinowo </span>
 					<span className={classes.contact__item}>
-						Ul. Sarbinowo{' '}
+					ul. Wrzosowa 50{' '}
 					</span>
 					<span className={classes.contact__item}>
-						<Image src={phone} alt='ikonka telefonu' width={30} /> 700 700 700{' '}
+						<Image src={phone} alt='ikonka telefonu' width={30} /> 518 494 880{' '}
 					</span>
 					<span className={classes.contact__item}>
-						<Image src={email} alt='ikonka email' width={30} />{' '}
-						email @seaandsunsarbinowo.com
+						<Image src={email} alt='ikonka email' width={30} />booking.sarbinowo@gmail.com
 					</span>
 				</div>
 

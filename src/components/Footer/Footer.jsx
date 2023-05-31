@@ -3,8 +3,14 @@ import classes from './Footer.module.scss';
 import Image from 'next/image';
 import logo from '@/assets/images/seasunlogo.png';
 
+import { useRouter } from 'next/router';
+
+
 const Footer = () => {
 	const currentYear = new Date().getFullYear();
+	const router = useRouter();
+	const pathname = router.pathname
+
 	return (
 		<>
 			<iframe
@@ -15,7 +21,10 @@ const Footer = () => {
 				referrerPolicy='no-referrer-when-downgrade'
 			></iframe>
 			<div className={classes.footNewsletter}>
-				<h3 className={classes.footNewsletter__title}>Zapisz się do newslettera, będziemy informować cię o najnowszych ofertach</h3>
+				<h3 className={classes.footNewsletter__title}>
+					Zapisz się do newslettera, będziemy informować cię o najnowszych
+					ofertach
+				</h3>
 				<form className={classes.footNewsletter__form}>
 					<input
 						type='email'
@@ -28,6 +37,27 @@ const Footer = () => {
 						Wyślij
 					</button>
 				</form>
+
+				{/* <form
+					action='https://app.getresponse.com/add_subscriber.html'
+			
+					className={classes.footNewsletter__form}
+					acceptCharset='utf-8'
+					method='post'
+				>
+					<input
+						type='text'
+						name='email'
+						placeholder='Email'
+						className={classes.footNewsletter__input}
+					/>
+					<input type='hidden' name='campaign_token' value='M9CqB' />
+					<input type="hidden" name="thankyou_url" value={`http://192.168.100.157:3000/${pathname}#dom`} />
+					<button type='submit' className={classes.footNewsletter__btn}>
+						Wyślij
+					</button>
+
+				</form> */}
 			</div>
 
 			<div className={classes.footInfo}>
@@ -35,8 +65,8 @@ const Footer = () => {
 					<div className={classes.footInfo__list}>
 						<span className={classes.footInfo__item}>ul. Wrzosowa 50</span>
 						<span className={classes.footInfo__item}>76-034 Sarbinowo</span>
-						<span className={classes.footInfo__item}>Tel: 1234 567 890</span>
-						<span className={classes.footInfo__item}>email@domena.pl</span>
+						<span className={classes.footInfo__item}>Tel: 518 494 880</span>
+						<span className={classes.footInfo__item}> booking.sarbinowo@gmail.com</span>
 					</div>
 				</div>
 				<Image src={logo} alt='logo' className={classes.footInfo__logo} />
