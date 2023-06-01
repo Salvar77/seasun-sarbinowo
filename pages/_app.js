@@ -23,9 +23,11 @@ const MyApp = ({ Component, pageProps }) => {
 				strategy='afterInteractive'
 			/>
 			<Script id='google-analytics' strategy='afterInteractive'>
-				window.dataLayer = window.dataLayer || []; function gtag()
-				{dataLayer.push(arguments)}
-				gtag('js', new Date()); gtag('config', 'G-64FJ5CKMYE');
+				{`
+          window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+          ga('create', 'G-64FJ5CKMYE', 'auto');
+          ga('send', 'pageview');
+        `}
 			</Script>
 			<Nav locale={locale} />
 			<main>
