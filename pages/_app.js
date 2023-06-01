@@ -3,28 +3,23 @@ import Head from 'next/head';
 import { appWithTranslation } from 'next-i18next';
 import Footer from '@/components/Footer/Footer';
 import Nav from '@/components/Nav/Nav';
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
-import * as gtag from '../public/ga.js'
+import Script from 'next/script';
 
 const MyApp = ({ Component, pageProps }) => {
 	const locale = pageProps.locale;
-	const router = useRouter();
 
-	useEffect(() => {
-		const handleRouteChange = (url) => {
-			gtag.pageview(url);
-		};
-
-		router.events.on('routeChangeComplete', handleRouteChange);
-
-		return () => {
-			router.events.off('routeChangeComplete', handleRouteChange);
-		};
-	}, [router.events]);
 	return (
 		<>
 			<Head>
+				<Script
+					async
+					src='https://www.googletagmanager.com/gtag/js?id=G-64FJ5CKMYE'
+				></Script>
+				<Script>
+					window.dataLayer = window.dataLayer || []; function gtag()
+					{dataLayer.push(arguments)}
+					gtag('js', new Date()); gtag('config', 'G-64FJ5CKMYE');
+				</Script>
 				<title>Sea&Sun Sarbinowo</title>
 				<meta
 					name='viewport'
