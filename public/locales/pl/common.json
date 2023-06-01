@@ -1,14 +1,11 @@
 {
-    "about": "O nas",
-    "paragraph1": "MIDFORM® to jedna z wiodących międzynarodowych firm specjalizujących się w produkcji stylowych i wygodnych mebli do salonu. Nasza firma mocno angażuje się w rozwój unikalnych mebli o wyjątkowym designie,które zabiorą Twoje doświadczenia życiowe na inny poziom.",
-    "paragraph2": "Wybierając MIDFORM®, wybierasz projektowanie najwyższej jakości w przystępnej cenie, co jest możliwe dzięki zoptymalizowanym procesom produkcyjnym, które odbywają się w fabrykach w Europie.",
-    "paragraph3": "Firma oferuje krzesła, sofy, stoły, taborety, gięte sklejki, pudełka i wiele innych produktów w wielu przedziałach cenowych, tworząc różnorodność rozwiązań pod kątem stylu i budżetu.",
-    "item1_title": "Ręcznie wykonane",
-    "item1_text": "Doświadczone ręce naszych pracowników umożliwiają realizację każdego detalu projektów, produkując przedmioty, które mają na celu przemienić przestrzeń poprzez piękno.",
-    "item2_title": "Materiały",
-    "item2_text": "Oferujemy szeroki wybór różnych materiałów, pozyskiwanych od renomowanych dostawców. Wykorzystanie przez nas niezwykłych materiałów jest częścią naszego rozpoznawalnego stylu i stało się ważnym elementem naszego „podpisu” ",
-    "item3_title": "Kolekcje",
-    "item3_text": "Nasze kolekcje mebli są oferowane poprzez różne marki. Monitorujemy, śledzimy i ustalamy światowe trendy, ponieważ jedno pozostaje kluczowe dla całej naszej kolekcji: nieporównywalny unikalny design naszych arcydzieł."
-
+	"voucher": "Prezent dla bliskiej osoby",
+	"voucher_text1": "Jeśli szukasz prezentu dla swoich bliskich lub chcesz zrobić sobie miły prezent, mamy dla Ciebie idealne rozwiązanie - vouchery na pobyt w naszych domkach letniskowych! Voucher to doskonały sposób na podarowanie wyjątkowego prezentu, który zostanie zapamiętany na długo.",
+	"voucher_text2": "Nasi klienci mogą zakupić vouchery o wartości 500 złotych, 1000 złotych lub 1500 złotych, które można wykorzystać na pobyt w naszych domkach letniskowych w dowolnym terminie. Voucher jest ważny przez cały rok od daty zakupu, a jego wykorzystanie jest bardzo proste - wystarczy skontaktować się z nami i dokonać rezerwacji na wybrany termin.",
+	"voucher_text3": "Voucher na pobyt w naszych domkach letniskowych to doskonały prezent dla bliskiej osoby, która marzy o spokojnym wypoczynku w pięknej okolicy nad jeziorem lub nad morzem. Z nami zawsze znajdziesz idealne rozwiązanie dla siebie i swoich bliskich. Skontaktuj się z nami już dziś i dowiedz się więcej na temat naszych voucherów!",
+	"breakfasts": "Śniadania",
+	"breakfasts_text1": "Wiklinowy koszyk pełen pyszności codziennie rano pod Twoimi drzwiami. Śniadanie na tarasie, w łóżku przed telewizorem – wybierz opcję najlepszą dla siebie a my codziennie zapukamy do Twoich drzwi z cieplutkimi bułeczkami i nie tylko.",
+	"breakfasts_text2": "Co znajdziesz w koszu? Bez wątpienia będą to same pyszności w większości od lokalnych dostawców. Nie znajdziesz u nas stałego menu. Codziennie przygotujemy dla Ciebie inne pyszności :). Zawsze znajdziesz wypieki na słodko, owoce i warzywa, wędliny, sery oraz coś specjalnego od naszej szefowej kuchni. Możemy przygotować dla Ciebie specjalne śniadanie wegetariańskie. Cena 45zł/os./doba.",
+	"breakfasts_text3": "Godziny dostarczenia: 8:00 – 8:30"
 
 }

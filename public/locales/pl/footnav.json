@@ -1,0 +1,21 @@
+{
+  "polityka_prywatnosci": "Polityka prywatności",
+  "newsletter": "Zapisz się do newslettera, będziemy informować cię o najnowszych ofertach",
+  "domki": "Domki",
+  "sniadania": "Śniadania",
+  "oferta_specjalna": "Oferta specjalna",
+  "galeria": "Galeria",
+  "regulamin": "Regulamin",
+  "kontakt": "Kontakt",
+  "rezerwacje": "Rezerwacje",
+  "rezerwacje_text": "Aby dokonać rezerwacji, oferujemy dwa wygodne sposoby kontaktu: telefoniczny lub za pomocą formularza kontaktowego.",
+  "name": "Imię",
+  "email": "Adres email",
+  "phone": "Telefon",
+  "phone_optional": "(opcjonalnie)",
+  "message": "Wiadomość",
+  "thanks_message": "Dziękujemy za wysłanie wiadomości. Wkrótce się z Tobą skontaktujemy.",
+  "send": "Wyślij",
+  "sending": "Wysyłanie..."
+
+}

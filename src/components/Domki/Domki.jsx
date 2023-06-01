@@ -31,8 +31,10 @@ import plant from './img/plant.png';
 import bedSheets from './img/bedSheets.png';
 import umbrella from './img/umbrella.png';
 import smartTv from './img/smartTv.png';
+import { useTranslation } from 'next-i18next';
 
 const Domki = () => {
+	const { t } = useTranslation('cottages');
 	const images = [
 		{
 			src: Img1,
@@ -134,59 +136,23 @@ const Domki = () => {
 			<h2 className={classes.subtitle}> Sea & Sun Sarbinowo</h2>
 			<div className={classes.info}>
 				<p>
-					Sea & Sun to nowo wybudowane, klimatyzowane, komfortowe domki na
-					wynajem w cichej i urokliwej części Sarbinowa. Położone zaledwie około
-					jednego kilometra od pięknej, piaszczystej, złotej plaży, do której
-					dojdziesz spacerem w trochę ponad 10 minut. Nasz obiekt położony jest
-					pośród łąk gdzie zaobserwować można dzikie zwierzęta takie jak ptactwo
-					i sarny.
+					{t('cottages_text1')}
 				</p>
 				<p>
-					Lokalizacja w spokojnej i zielonej okolicy sprzyja prawdziwemu
-					wypoczynkowi na łonie natury z dala od zgiełku i hałasów miasta.
-					Abyście czuli się Państwo bezpiecznie teren jest ogrodzony i
-					monitorowany. Znajduje się na nim plac zabaw dla dzieci, który
-					wyposażony jest dla wygody opiekunów w leżaki oraz fotele wiszące aby
-					czas zabawy Twoich pociech upłynął w pełnym relaksie także dla Ciebie.
-					Samochód można pozostawić na przestronnym, bezpłatnym parkingu.
+					{t('cottages_text2')}
 				</p>
 				<p>
-					Na Państwa przyjazd czeka świeża pościel i miękkie ręczniki. Aby Was
-					mile powitać, przygotowujemy ciasto, soki, napoje, piwo oraz
-					zapewniamy kawę przez cały pobyt. Nasze świeże i pyszne śniadanie
-					dostarczane jest pod drzwi w formie kosza piknikowego.
+					{t('cottages_text3')}
 				</p>
 				<p>
-					Nasze dwupoziomowe domki o powierzchni 36m2 są klimatyzowane i
-					przytulne. Każdy z nich posiada super-szybki internet satelitarny oraz
-					czujniki dymu we wszystkich pokojach. Na parterze znajduje się
-					przestronny salon z otwartą kuchnią i łazienką. W salonie czeka na Was
-					wygodny narożnik z funkcją spania, telewizor Smart z kanałami
-					telewizji kablowej i Netflix, a oświetlenie LED tworzy przyjemną
-					atmosferę. Dopełnieniem jest stylowy kominek elektryczny. Z salonu
-					można wyjść na prywatny ogródek z tarasem i zestawem wypoczynkowym
-					oraz grillem.
+					{t('cottages_text4')}
 				</p>
 
 				<p>
-					Kuchnia jest w pełni wyposażona, znajdziecie tam lodówkę z zamrażarką,
-					mikrofalówkę, płytę ceramiczną, ekspres do kawy, toster oraz komplet
-					sztućców i naczyń. W łazience z prysznicem znajduje się szerokie
-					lustro, umywalka z szafką, ręczniki oraz kosmetyki hotelowe.
-					Dodatkowo, dla Waszego komfortu, zainstalowaliśmy ogrzewanie
-					podłogowe. Na piętrze znajdują się dwie sypialnie z wygodnymi
-					podwójnymi łóżkami, telewizorem i szafkami nocnymi. Z okien roztacza
-					się piękny widok na ogród i łąki.
+					{t('cottages_text5')}
 				</p>
 				<p>
-					Chcemy zapewnić naszym Gościom prywatność i spokój, dlatego nie
-					organizujemy imprez typu wieczory panieńskie czy kawalerskie. Nasz
-					obiekt składa się z zaledwie 4 domków, co czyni naszą ofertę
-					wyjątkową, ale również ograniczoną. Dlatego zachęcamy do kontaktu już
-					dziś, jeśli chcą Państwo mieć pewność rezerwacji w interesującym Was
-					terminie. Aby być na bieżąco z naszymi ofertami i rabatami na przyszły
-					wypoczynek, zapraszamy do zapisania się do naszego newslettera na
-					naszej stronie internetowej.
+					{t('cottages_text6')}
 				</p>
 			</div>
 
@@ -201,53 +167,54 @@ const Domki = () => {
 				<div className={classes.infoGraph}>
 					<InfoGraph
 						src={parking}
-						title='Parking'
-						text='Bezpłatne i wygodne miejsca parkingowe.'
+						title={t('parking_title')}
+						text={t('parking_text')}
 					/>
 					<InfoGraph
 						src={bedSheets}
-						title='Świeża pościel i ręczniki'
-						text='Zapewniamy świeżą pościel i miękkie ręczniki.'
+						title={t('bedSheets_title')}
+						text={t('bedSheets_text')}
 					/>
 					<InfoGraph
 						src={snow}
-						title='Klimatyzacja'
-						text='Świeże i komfortowe wnętrze.'
+						title={t('snow_title')}
+						text={t('snow_text')}
 					/>
 					<InfoGraph
 						src={playground}
-						title='Plac zabaw'
-						text='Zabawa i relaks dla najmłodszych.'
+						title={t('playground_title')}
+						text={t('playground_text')}
 					/>
-					<InfoGraph src={wifi} title='Wifi' text='Stałe połączenie online' />
+					<InfoGraph src={wifi} title={t('wifi_title')} text={t('wifi_text')} />
+					 
 					<InfoGraph
 						src={plant}
-						title='Prywatny ogródek z tarasem '
-						text='Każdy domek posiada prywatny ogródek z tarasem.'
+						title={t('plant_title')}
+						text={t('plant_text')}
 					/>
 					<InfoGraph
 						src={mute}
-						title='Spokojna lokalizacja'
-						text='Odpoczynek w cichej i urokliwej okolicy.'
+						title={t('mute_title')}
+						text={t('mute_text')}
 					/>
 					<InfoGraph
 						src={camera}
-						title='Monitoring i ogrodzenie'
-						text=' Bezpieczeństwo i prywatność.'
+						title={t('camera_title')}
+						text={t('camera_text')}
 					/>
 					<InfoGraph
 						src={umbrella}
-						title='Bliskość plaży'
-						text='Krótki spacer do pięknej, piaszczystej plaży'
+						title={t('umbrella_title')}
+						text={t('umbrella_text')}
 					/>
 					<InfoGraph
 						src={smartTv}
-						title='Smart TV'
-						text='Telewizja kablowa oraz Netflix na wyciągnięcie ręki'
+						title={t('smartTv_title')}
+						text={t('smartTv_text')}
 					/>
 				</div>
 				<Link href='/contact' className={classes.button}>
-					Rezerwacja
+					{t('reservation_title')}
 				</Link>
 			</div>
 		</>

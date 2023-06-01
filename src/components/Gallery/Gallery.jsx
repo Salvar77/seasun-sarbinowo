@@ -26,10 +26,11 @@ import kule from '@/assets/images/kule.jpg';
 import trawa from '@/assets/images/trawa.jpg';
 import trawa2 from '@/assets/images/trawa2.jpg';
 import laki from '@/assets/images/laki.jpg';
-import domki from '@/assets/images/domki.jpg';
+import galleryHero from '@/assets/images/galleryHero.png';
 import HeroImg from '../HeroImg/HeroImg';
-
+import { useTranslation } from 'next-i18next';
 const Gallery = () => {
+	const {t} = useTranslation('footnav')
 	const [lightboxController, setLightboxController] = useState({
 		toggler: false,
 		slide: 1,
@@ -71,9 +72,9 @@ const Gallery = () => {
 	return (
 		<>
 			<HeroImg
-				src={domki}
+				src={galleryHero}
 				alt='Sea & Sun - domki letniskowe Sarbinowo'
-				title='Galeria'
+				title={`${t('galeria')}`}
 			/>
 			<div className={classes.gallery}>
 				{images.map((image) => (

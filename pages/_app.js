@@ -9,7 +9,7 @@ const MyApp = ({ Component, pageProps }) => {
 	return (
 		<>
 			<Head>
-				<title>NestCore</title>
+				<title>Sea&Sun Sarbinowo</title>
 				<meta
 					name='viewport'
 					content='width=device-width,height=device-height , initial-scale=1'

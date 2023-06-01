@@ -1,26 +1,28 @@
 import Domki from '@/components/Domki/Domki'
 import HeroImg from '@/components/HeroImg/HeroImg'
-import domki from '@/assets/images/domki2.png'
+import domki from '@/assets/images/kuleHero.png'
 import React from 'react'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
+
 export async function getStaticProps({ locale }) {
 	return {
 	  props: {
 		...(await serverSideTranslations(locale, [
-		  'contact',
-		 ], null, ['en', 'pl'])),
+		  'common','footnav', 'cottages'
+		 ], null, ['en', 'pl', 'de'])),
 		 locale
 	  },
 	}
   }
-
-const index = () => {
+const Index = () => {
+	const {t} = useTranslation('cottages')
   return (
     <>
-    <HeroImg src={domki} alt='domki letniskowe sarbinowo' title='Domki letniskowe Sarbinowo' />
+    <HeroImg src={domki} alt='domki letniskowe sarbinowo' title={t('cottages')} big={true} />
     <Domki />
     </>
   )
 }
 
-export default index
+export default Index

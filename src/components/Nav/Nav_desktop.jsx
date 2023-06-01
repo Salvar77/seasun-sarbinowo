@@ -4,18 +4,18 @@ import logo from '@/assets/images/seasunlogo.png';
 import classes from './Nav.module.scss';
 import SelectLanguage from './SelectLanguage';
 
-const Nav_desktop = ({ locale }) => {
+const Nav_desktop = ({ locale, t }) => {
 	return (
 		<nav className={classes.nav_container}>
 			<div className={classes.nav__links_box}>
 				<Link className={classes.nav_link} href={`/holiday_cottages`}>
-					Domki
+					{t('domki')}
 				</Link>
 				<Link className={classes.nav_link} href={`/breakfasts`}>
-					Śniadania
+					{t('sniadania')}
 				</Link>
 				<Link className={classes.nav_link} href={`/special_offert`}>
-					Oferta specjalna
+					{t('oferta_specjalna')}
 				</Link>
 			</div>
 			
@@ -29,13 +29,13 @@ const Nav_desktop = ({ locale }) => {
 	
 			<div className={classes.nav__links_box}>
 				<Link className={classes.nav_link} href={`/gallery`}>
-					Galeria
+					{t('galeria')}
 				</Link>
 				<Link className={classes.nav_link} href={`/regulations`}>
-					Regulamin
+					{t('regulamin')}
 				</Link>
 				<Link className={classes.nav_link} href={`/contact`}>
-					Kontakt
+					{t('kontakt')}
 				</Link>
 				{/* <Link className={classes.nav_link} href={`/bookings`}>
 					Rezerwacja

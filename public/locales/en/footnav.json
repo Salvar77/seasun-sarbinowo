@@ -1,0 +1,21 @@
+{
+  "polityka_prywatnosci": "Privacy Policy",
+  "newsletter": "Sign up for the newsletter to receive the latest offers",
+  "domki": "Cottages",
+  "sniadania": "Breakfasts",
+  "oferta_specjalna": "Special Offer",
+  "galeria": "Gallery",
+  "regulamin": "Terms and Conditions",
+  "kontakt": "Contact",
+  "rezerwacje": "Reservations",
+  "rezerwacje_text": "To make a reservation, we offer two convenient methods of contact: by phone or using the contact form.",
+  "name": "Name",
+  "email": "Email Address",
+  "phone": "Phone",
+  "phone_optional": "(optional)",
+  "message": "Message",
+  "thanks_message": "Thank you for sending the message. We will get back to you soon.",
+  "send": "Send",
+  "sending": "Sending..."
+  
+}

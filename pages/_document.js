@@ -18,11 +18,11 @@ export default function Document({ locale }) {
 				<meta name='author' content='Kacper Czosnowski' />
 				<meta
 					name='Description'
-					content='uzupełnić'
+					content='Nasze domki letniskowe to idealne miejsce na wakacje. Znajdują się w urokliwej i spokojnej okolicy, zaledwie kilka kroków od pięknej piaszczystej plaży. Oferujemy komfortowe wnętrza z klimatyzacją oraz świeżą pościel i miękkie ręczniki'
 				/>
 				<meta
 					name='keywords'
-					content='uzupełnić'
+					content='domki letniskowe, wakacje, plaża, komfort, prywatność, parking, WiFi, klimatyzacja, plac zabaw, ogródek z tarasem, monitorowanie, bliskość plaży, Smart TV, rezerwacja'
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>

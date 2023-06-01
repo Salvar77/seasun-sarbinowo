@@ -2,62 +2,28 @@ import Link from 'next/link';
 import classes from './Footer.module.scss';
 import Image from 'next/image';
 import logo from '@/assets/images/seasunlogo.png';
+import Newsletter from './Newsletter';
 
-import { useRouter } from 'next/router';
-
+import { useTranslation } from 'next-i18next';
 
 const Footer = () => {
-	const currentYear = new Date().getFullYear();
-	const router = useRouter();
-	const pathname = router.pathname
+	const { t } = useTranslation('footnav')
 
+	const currentYear = new Date().getFullYear();
+	
 	return (
 		<>
 			<iframe
-				src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7692.751835939589!2d15.961480461618425!3d54.24149027263694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4700315c49a4a53d%3A0x456ef6f4e966bfb7!2sDino!5e0!3m2!1spl!2spl!4v1685352683765!5m2!1spl!2spl'
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2331.524022406562!2d15.96716313510059!3d54.24161225568549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4700302d1277f41f%3A0x40452a450b9559f6!2sWrzosowa%2050%2C%2076-034!5e0!3m2!1spl!2spl!4v1685554036594!5m2!1spl!2spl"
+				title='mapa lokalizacji'
 				allowFullScreen=''
 				className={classes.map}
 				loading='lazy'
 				referrerPolicy='no-referrer-when-downgrade'
 			></iframe>
 			<div className={classes.footNewsletter}>
-				<h3 className={classes.footNewsletter__title}>
-					Zapisz się do newslettera, będziemy informować cię o najnowszych
-					ofertach
-				</h3>
-				<form className={classes.footNewsletter__form}>
-					<input
-						type='email'
-						name='email'
-						id='email'
-						placeholder='Email'
-						className={classes.footNewsletter__input}
-					/>
-					<button type='submit' className={classes.footNewsletter__btn}>
-						Wyślij
-					</button>
-				</form>
+				<Newsletter t={t} />
 
-				{/* <form
-					action='https://app.getresponse.com/add_subscriber.html'
-			
-					className={classes.footNewsletter__form}
-					acceptCharset='utf-8'
-					method='post'
-				>
-					<input
-						type='text'
-						name='email'
-						placeholder='Email'
-						className={classes.footNewsletter__input}
-					/>
-					<input type='hidden' name='campaign_token' value='M9CqB' />
-					<input type="hidden" name="thankyou_url" value={`http://192.168.100.157:3000/${pathname}#dom`} />
-					<button type='submit' className={classes.footNewsletter__btn}>
-						Wyślij
-					</button>
-
-				</form> */}
 			</div>
 
 			<div className={classes.footInfo}>
@@ -66,14 +32,14 @@ const Footer = () => {
 						<span className={classes.footInfo__item}>ul. Wrzosowa 50</span>
 						<span className={classes.footInfo__item}>76-034 Sarbinowo</span>
 						<span className={classes.footInfo__item}>Tel: 518 494 880</span>
-						<span className={classes.footInfo__item}> booking.sarbinowo@gmail.com</span>
+						<span className={classes.footInfo__item}>booking@seasunsarbinowo.pl</span>
 					</div>
 				</div>
 				<Image src={logo} alt='logo' className={classes.footInfo__logo} />
 
 				<div className={classes.footInfo__info}>
-					<Link href='/privacy_policy'> Polityka prywatności </Link>
-					<Link href='/regulations'> Regulamin </Link>
+					<Link href='/privacy_policy'> {t('polityka_prywatnosci')}</Link>
+					<Link href='/regulations'> {t('regulamin')} </Link>
 				</div>
 			</div>
 

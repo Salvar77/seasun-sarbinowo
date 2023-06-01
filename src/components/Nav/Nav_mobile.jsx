@@ -7,7 +7,7 @@ import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import SelectLanguage from './SelectLanguage';
 
-function Nav_mobile({ lng, t}) {
+function Nav_mobile({ locale }) {
 	const [isActive, setIsActive] = useState(false);
 	const toggleNav = () => {
 		setIsActive(!isActive);
@@ -63,7 +63,7 @@ function Nav_mobile({ lng, t}) {
 
 
 						</ul>
-						<SelectLanguage  lng={lng} />
+						<SelectLanguage  locale={locale} />
 					</motion.div>
 				)}
 			</AnimatePresence>
