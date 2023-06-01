@@ -39,7 +39,7 @@ const Footer = () => {
 
 				<div className={classes.footInfo__info}>
 					<Link href='/privacy_policy'> {t('polityka_prywatnosci')}</Link>
-					<Link href='/regulations'> {t('regulamin')} </Link>
+					<Link href='/statute'> {t('regulamin')} </Link>
 				</div>
 			</div>
 

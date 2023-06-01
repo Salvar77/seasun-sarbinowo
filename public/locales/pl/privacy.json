@@ -1,0 +1,21 @@
+{
+    "title": "Polityka prywatności",
+    "data_admnin": "Administrator daych",
+    "data_admin_text": "Administratorem danych osobowych jest firma:",
+
+    "data_gather": "Jak zbieramy Twoje dane?",
+    "data_gather_text": "Twoje dane, takie jak adres e-mail lub numer telefonu, są zbierane podczas korzystania z formularza kontaktowego lub apisu na nasz newsletter. Na stronie seasunsarbinowo.pl korzystamy z usługi Google Analytics (wyjaśnienie poniżej).",
+
+    "data_use": "Cele przetwarzania danych",
+    "data_use_text1": "Twoje dane, które zostały zebrane za pomocą formularza kontaktowego lub zapisu do newslettera, są przetwarzane wyłącznie w celach kontaktowych. Nie udostępniamy ich osobom trzecim ani nie sprzedajemy ich.",
+    "data_use_text2": "W odpowiedzi na Twoją wiadomość kontaktową, możemy przesłać ofertę marketingową dotyczącą naszych najnowszych promocji i ofert. Korzystanie z formularza kontaktowego jest dobrowolne.",
+    "newsletter": "Newsletter",
+    "newsletter_text": "Zapisanie się na nasz newsletter jest dobrowolne i możesz w każdej chwili zrezygnować z jego otrzymywania. Newsletter służy do wysyłania informacji na temat nowych kursów, aktualnych promocji i ofert.",
+    "newsletter_text2": "Nie udostępniamy i nie sprzedajemy danych, które zostały zebrane za pomocą formularza zapisu do newslettera.",
+    "google_analytics": "Google Analytics",
+    "google_analytics_text": "Na stronie seasunsarbinowo.pl korzystamy z usługi Google Analytics, która służy do zbierania danych statystycznych o użytkownikach. Dane te są zbierane automatycznie za pomocą plików cookies. Google Analytics nie zbiera żadnych danych osobowych, a dane te są anonimowe. Google Analytics nie udostępnia żadnych danych osobom trzecim.",
+    "other": "Inne",
+    "other_text": "Na stronie seasunsarbinowo.pl korzystamy z usługi Google Maps, która służy do wyświetlania mapy z lokalizacją firmy. Google Maps nie zbiera żadnych danych osobowych, a dane te są anonimowe. Google Maps nie udostępnia żadnych danych osobom trzecim.",
+    "other_text2": "Jeśli masz jakiekolwiek pytania, prosimy o kontakt pod jednym z poniższych adresów e-mail:"
+
+}

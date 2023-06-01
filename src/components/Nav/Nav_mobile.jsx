@@ -52,7 +52,7 @@ function Nav_mobile({ locale }) {
 								<Link href={`/gallery`}>Galeria</Link>
 							</li>
 							<li className={classes.nav_mobile__link} onClick={toggleNav}>
-								<Link href={`/regulations`}>Regulamin</Link>
+								<Link href={`/statute`}>Regulamin</Link>
 							</li>
 							<li className={classes.nav_mobile__link} onClick={toggleNav}>
 								<Link href={`/contact`}>Kontakt</Link>

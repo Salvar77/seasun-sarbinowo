@@ -70,5 +70,3 @@ const Newsletter = ({t}) => {
 
 export default Newsletter;
 
-
-	

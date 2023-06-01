@@ -1,9 +1,10 @@
+import Privacy from '@/components/privacy_politics/Privacy'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 export async function getStaticProps({ locale }) {
 	return {
 	  props: {
 		...(await serverSideTranslations(locale, [
-		  'common','footnav' 
+		  'common','footnav','privacy'
 		 ], null, ['en', 'pl', 'de'])),
 		 locale
 	  },
@@ -11,7 +12,7 @@ export async function getStaticProps({ locale }) {
   }
 const index = () => {
   return (
-    <div>index</div>
+   <Privacy/>
   )
 }
 

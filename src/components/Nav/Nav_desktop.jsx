@@ -31,16 +31,13 @@ const Nav_desktop = ({ locale, t }) => {
 				<Link className={classes.nav_link} href={`/gallery`}>
 					{t('galeria')}
 				</Link>
-				<Link className={classes.nav_link} href={`/regulations`}>
+				<Link className={classes.nav_link} href={`/statute`}>
 					{t('regulamin')}
 				</Link>
 				<Link className={classes.nav_link} href={`/contact`}>
 					{t('kontakt')}
 				</Link>
-				{/* <Link className={classes.nav_link} href={`/bookings`}>
-					Rezerwacja
-				</Link> */}
-	
+		
 				<SelectLanguage locale={locale} />
 			</div>
 

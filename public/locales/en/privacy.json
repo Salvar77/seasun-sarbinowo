@@ -1,0 +1,18 @@
+{
+    "title": "Privacy Policy",
+    "data_admin": "Data Controller",
+    "data_admin_text": "The data controller for personal data is:",
+    "data_gather": "How We Collect Your Data",
+    "data_gather_text": "Your data, such as email address or phone number, is collected when you use the contact form or subscribe to our newsletter. We use Google Analytics on the seasunsarbinowo.pl website (explanation below).",
+    "data_use": "Purposes of Data Processing",
+    "data_use_text1": "Your data collected through the contact form or newsletter subscription is processed solely for contact purposes. We do not share or sell them to third parties.",
+    "data_use_text2": "In response to your contact message, we may send you a marketing offer regarding our latest promotions and offers. The use of the contact form is voluntary.",
+    "newsletter": "Newsletter",
+    "newsletter_text": "Subscribing to our newsletter is voluntary, and you can unsubscribe at any time. The newsletter is used to send information about new courses, current promotions, and offers.",
+    "newsletter_text2": "We do not share or sell data collected through the newsletter subscription form.",
+    "google_analytics": "Google Analytics",
+    "google_analytics_text": "We use Google Analytics on the seasunsarbinowo.pl website to collect and analyze information about the site (such as monthly visits, traffic sources - search engines, social media links, etc.). For this purpose, user information is transmitted to Google. Google ensures that no personally identifiable information is transmitted, and IP addresses are not treated as such by Google.",
+    "other": "Other",
+    "other_text": "We use Google Maps on the seasunsarbinowo.pl website to display a map with the company's location. Google Maps does not collect any personal data, and the data collected is anonymous. Google Maps does not share data with third parties.",
+    "other_text2": "If you have any questions, please contact us at one of the email addresses below:"
+  }
