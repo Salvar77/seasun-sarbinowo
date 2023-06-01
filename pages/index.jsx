@@ -3,9 +3,10 @@ import Domki from '@/components/Domki/Domki';
 import classes from '@/components/Domki/Domki.module.scss';
 import Voucher from '@/components/Voucher/Voucher';
 import Image from 'next/image';
-import heroImg from '@/assets/images/domki2.png';
+import heroImg from '@/assets/images/kuleHero.png';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import HeroImg from '@/components/HeroImg/HeroImg';
 
 export async function getStaticProps({ locale }) {
 	return {
@@ -24,7 +25,7 @@ export default function Home() {
 		<>
 			<MainPage />
 			<h2 className={classes.title}>{t('cottages')}</h2>
-			<Image src={heroImg} alt='Domki' className={classes.heroImg} />
+			<HeroImg src={heroImg} big alt='Domki' className={classes.heroImg} />
 			<Domki />
 			<Voucher />
 		</>

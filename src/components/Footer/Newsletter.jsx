@@ -61,7 +61,7 @@ const Newsletter = ({t}) => {
 
 			{formResult && (
 				<h3 className={classes.footNewsletter__thanks}>
-					Dziękujemy za zapis do naszego newslettera!
+					{t('newsletter_thanks')}
 				</h3>
 			)}
 		</>
