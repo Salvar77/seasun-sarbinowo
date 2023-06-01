@@ -11,21 +11,21 @@ const MyApp = ({ Component, pageProps }) => {
 	return (
 		<>
 			<Head>
-				<Script
-					async
-					src='https://www.googletagmanager.com/gtag/js?id=G-64FJ5CKMYE'
-				></Script>
-				<Script>
-					window.dataLayer = window.dataLayer || []; function gtag()
-					{dataLayer.push(arguments)}
-					gtag('js', new Date()); gtag('config', 'G-64FJ5CKMYE');
-				</Script>
 				<title>Sea&Sun Sarbinowo</title>
 				<meta
 					name='viewport'
 					content='width=device-width,height=device-height , initial-scale=1'
 				/>
 			</Head>
+			<Script
+				async
+				src='https://www.googletagmanager.com/gtag/js?id=G-64FJ5CKMYE'
+			></Script>
+			<Script>
+				window.dataLayer = window.dataLayer || []; function gtag()
+				{dataLayer.push(arguments)}
+				gtag('js', new Date()); gtag('config', 'G-64FJ5CKMYE');
+			</Script>
 			<Nav locale={locale} />
 			<main>
 				<Component {...pageProps} />
