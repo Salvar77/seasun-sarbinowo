@@ -26,10 +26,14 @@ const Newsletter = ({t}) => {
 			console.error('Błąd podczas przetwarzania formularza:', error);
 		}
 	};
+
 	return (
 		<>
 			{!formResult && (
 				<div id='mlb2-5478178' className={classes.footNewsletter}>
+					<h2 className={classes.footNewsletter__header}>
+						Newsletter
+					</h2>
 					<h3 className={classes.footNewsletter__title}>
 						
 						{t('newsletter')}

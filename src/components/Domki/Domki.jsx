@@ -16,7 +16,7 @@ import Img12 from '@/assets/images/Sea_Sun_www-12.jpg';
 import Img13 from '@/assets/images/Sea_Sun_www-13.jpg';
 import Img14 from '@/assets/images/Sea_Sun_www-14.jpg';
 import Img15 from '@/assets/images/Sea_Sun_www-15.jpg';
-
+import outside from '@/assets/images/outside.jpg';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';

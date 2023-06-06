@@ -4,6 +4,9 @@ import domki from '@/assets/images/kuleHero.png'
 import React from 'react'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
+import outside from '@/assets/images/outside.jpg'
+
+
 
 export async function getStaticProps({ locale }) {
 	return {
@@ -15,11 +18,15 @@ export async function getStaticProps({ locale }) {
 	  },
 	}
   }
+
 const Index = () => {
 	const {t} = useTranslation('cottages')
+	
   return (
     <>
-    <HeroImg src={domki} alt='domki letniskowe sarbinowo' title={t('cottages')} big={true} />
+    <HeroImg src={outside} alt='domki letniskowe sarbinowo' title={t('cottages')} big={true} 
+	 style={{ filter: 'brightness(100%)' }}
+	 />
     <Domki />
     </>
   )
