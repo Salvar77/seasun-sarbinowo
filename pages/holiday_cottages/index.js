@@ -1,6 +1,5 @@
 import Domki from '@/components/Domki/Domki'
 import HeroImg from '@/components/HeroImg/HeroImg'
-import domki from '@/assets/images/kuleHero.png'
 import React from 'react'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'

@@ -30,7 +30,7 @@ export default function Home() {
 			<MainPage />
 			<h2 className={classes.title}>{t('cottages')}</h2>
 			<div
-				className={	`${classes.heroImg} ${classes.heroImg__b}`	}
+				className={	`${classes.heroImg} ${classes.heroImg__b}`}
 			>
 				<Image src={outside} alt={'SeaSunSarbinowo'} className={classes.heroImg__img} />
 			</div>

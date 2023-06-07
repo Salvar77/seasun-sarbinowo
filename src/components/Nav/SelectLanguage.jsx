@@ -21,7 +21,6 @@ const SelectLanguage = ({locale}) => {
         setShownav(!shownav);
     }
 
-    console.log(locale);
 	return (
 		<div className={classes.lang}>
 
