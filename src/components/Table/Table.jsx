@@ -13,8 +13,8 @@ const Table = () => {
 				<th>{t('month')}</th>
 				<th>Data</th>
 				<th>{t('4ppl')}</th>
-				<th>{t('4ppl')}</th>
-				<th>{t('4ppl')}</th>
+				<th>{t('5ppl')}</th>
+				<th>{t('6ppl')}</th>
 			</tr>
 			<tr>
 				<td rowSpan='2'>{t('june')}</td>
