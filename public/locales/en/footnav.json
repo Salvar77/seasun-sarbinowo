@@ -17,6 +17,8 @@
   "message": "Message",
   "thanks_message": "Thank you for sending the message. We will get back to you soon.",
   "send": "Send",
-  "sending": "Sending..."
+  "sending": "Sending...",
+  "cennik": "Pricing",
+  "main": "Main page"
   
 }

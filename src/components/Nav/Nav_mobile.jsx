@@ -37,25 +37,25 @@ function Nav_mobile({ locale }) {
 					>
 						<ul className={classes.nav_mobile__links}>
 							<li className={classes.nav_mobile__link} onClick={toggleNav}>
-								<Link href={`/`}>Strona główna</Link>
+								<Link href={`/`}>{t('main')}</Link>
 							</li>
 							<li className={classes.nav_mobile__link} onClick={toggleNav}>
-								<Link href={`/holiday_cottages`} >Domki</Link>
+								<Link href={`/holiday_cottages`} >{t('domki')}</Link>
 							</li>
 							<li className={classes.nav_mobile__link} onClick={toggleNav}>
-								<Link href={`/breakfasts`}>Śniadania</Link>
+								<Link href={`/breakfasts`}>{t('sniadania')}</Link>
 							</li>
 							<li className={classes.nav_mobile__link} onClick={toggleNav}>
-								<Link href={`/special_offert`}>Oferta specjalna</Link>
+								<Link href={`/pricing`}>{t('cennik')}</Link>
 							</li>
 							<li className={classes.nav_mobile__link} onClick={toggleNav}>
-								<Link href={`/gallery`}>Galeria</Link>
+								<Link href={`/gallery`}>{t('galeria')}</Link>
 							</li>
 							<li className={classes.nav_mobile__link} onClick={toggleNav}>
-								<Link href={`/statute`}>Regulamin</Link>
+								<Link href={`/statute`}>{t('regulamin')}</Link>
 							</li>
 							<li className={classes.nav_mobile__link} onClick={toggleNav}>
-								<Link href={`/contact`}>Kontakt</Link>
+								<Link href={`/contact`}>{t('kontakt')}</Link>
 							</li>
 							{/* <li className={classes.nav_mobile__link} onClick={toggleNav}>
 								<Link href={`/bookings`}>Rezerwacja</Link>

@@ -17,5 +17,7 @@
   "message": "Nachricht",
   "thanks_message": "Vielen Dank für die Nachricht. Wir melden uns bald bei Ihnen.",
   "send": "Senden",
-  "sending": "Senden..."
+  "sending": "Senden...",
+  "cennink": "Preisliste",
+  "main": "Startseite"
 }

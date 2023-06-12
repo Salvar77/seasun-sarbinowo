@@ -12,10 +12,11 @@ export async function getStaticProps({ locale }) {
 
 import Voucher from '@/components/Voucher/Voucher'
 import React from 'react'
+import Table from '@/components/Table/Table'
 
 const index = () => {
   return (
-    <Voucher />
+   <Table />
   )
 }
 

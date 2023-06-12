@@ -10,8 +10,6 @@ const SelectLanguage = ({locale}) => {
 	const [shownav, setShownav] = useState(false);
     const router = useRouter();
     const { pathname } = router;
-    console.log(pathname);
-
     
 	const closeNav = () => {
 		setShownav(false);

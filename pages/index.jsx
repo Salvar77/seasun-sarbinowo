@@ -2,12 +2,11 @@ import MainPage from '@/components/MainPage/MainPage';
 import Domki from '@/components/Domki/Domki';
 import classes from '@/components/Domki/Domki.module.scss';
 import Voucher from '@/components/Voucher/Voucher';
-
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import HeroImg from '@/components/HeroImg/HeroImg';
 import outside from '@/assets/images/outside.jpg';
 import Image from 'next/image';
+import Table from '@/components/Table/Table';
 
 export async function getStaticProps({ locale }) {
 	return {
@@ -36,7 +35,7 @@ export default function Home() {
 			</div>
 			
 			<Domki />
-			<Voucher />
+			<Table />
 		</>
 	);
 }

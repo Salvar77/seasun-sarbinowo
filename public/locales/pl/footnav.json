@@ -17,6 +17,8 @@
   "message": "Wiadomość",
   "thanks_message": "Dziękujemy za wysłanie wiadomości. Wkrótce się z Tobą skontaktujemy.",
   "send": "Wyślij",
-  "sending": "Wysyłanie..."
+  "sending": "Wysyłanie...",
+  "cennik": "Cennik",
+  "main": "Strona główna"
 
 }

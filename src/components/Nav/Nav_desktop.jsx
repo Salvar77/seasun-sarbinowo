@@ -14,8 +14,8 @@ const Nav_desktop = ({ locale, t }) => {
 				<Link className={classes.nav_link} href={`/breakfasts`}>
 					{t('sniadania')}
 				</Link>
-				<Link className={classes.nav_link} href={`/special_offert`}>
-					{t('oferta_specjalna')}
+				<Link className={classes.nav_link} href={`/pricing`}>
+					{t('cennik')}
 				</Link>
 			</div>
 			
