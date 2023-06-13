@@ -6,12 +6,14 @@ import Hamburger from './Hamburger';
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import SelectLanguage from './SelectLanguage';
+import { useTranslation } from 'next-i18next';
 
 function Nav_mobile({ locale }) {
 	const [isActive, setIsActive] = useState(false);
 	const toggleNav = () => {
 		setIsActive(!isActive);
 	};
+	const { t } = useTranslation('footnav');
 	return (
 		<>
 			<nav className={classes.nav_container}>
