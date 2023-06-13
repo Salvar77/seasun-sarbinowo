@@ -8,7 +8,9 @@ const Table = () => {
 	return (
 		<>
 		<h2 className={classes.header}>{t('pricing')} </h2>
+
 		<table className={classes.table}>
+			<tbody>
 			<tr>
 				<th>{t('month')}</th>
 				<th>Data</th>
@@ -55,6 +57,7 @@ const Table = () => {
 				<td>520 zł</td>
 				<td>570 zł</td>
 			</tr>
+			</tbody>
 		</table>
 		</>
 	);
