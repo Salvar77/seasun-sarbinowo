@@ -32,30 +32,30 @@ const Table = () => {
 				<td>570 zł</td>
 			</tr>
 			<tr>
-				<td rowSpan='2'>{t('july')}</td>
-				<td>1-6</td>
-				<td>470 zł</td>
-				<td>520 zł</td>
-				<td>570 zł</td>
+				<td><b>{t('july')} </b> </td>
+				<td>1-31</td>
+				<td>490 zł</td>
+				<td>550 zł</td>
+				<td>600 zł</td>
 			</tr>
-			<tr>
+			{/* <tr>
 				<td>7-31</td>
 				<td>590 zł</td>
 				<td>650 zł</td>
 				<td>710 zł</td>
-			</tr>
+			</tr> */}
 			<tr>
 				<td rowSpan='2'>{t('august')}</td>
 				<td>1-20</td>
-				<td>590 zł</td>
-				<td>650 zł</td>
-				<td>710 zł</td>
+				<td>490 zł</td>
+				<td>550 zł</td>
+				<td>600 zł</td>
 			</tr>
 			<tr>
 				<td>20-31</td>
-				<td>470 zł</td>
-				<td>520 zł</td>
-				<td>570 zł</td>
+				<td>390 zł</td>
+				<td>450 zł</td>
+				<td>550 zł</td>
 			</tr>
 			</tbody>
 		</table>
