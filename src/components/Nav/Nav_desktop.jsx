@@ -11,11 +11,14 @@ const Nav_desktop = ({ locale, t }) => {
 				<Link className={classes.nav_link} href={`/holiday_cottages`}>
 					{t('domki')}
 				</Link>
-				<Link className={classes.nav_link} href={`/breakfasts`}>
+				{/* <Link className={classes.nav_link} href={`/breakfasts`}>
 					{t('sniadania')}
-				</Link>
+				</Link> */}
 				<Link className={classes.nav_link} href={`/pricing`}>
 					{t('cennik')}
+				</Link>
+				<Link className={classes.nav_link} href={`/gallery`}>
+					{t('galeria')}
 				</Link>
 			</div>
 			
@@ -28,9 +31,7 @@ const Nav_desktop = ({ locale, t }) => {
 				</Link>
 	
 			<div className={classes.nav__links_box}>
-				<Link className={classes.nav_link} href={`/gallery`}>
-					{t('galeria')}
-				</Link>
+			
 				<Link className={classes.nav_link} href={`/statute`}>
 					{t('regulamin')}
 				</Link>

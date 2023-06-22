@@ -44,9 +44,9 @@ function Nav_mobile({ locale }) {
 							<li className={classes.nav_mobile__link} onClick={toggleNav}>
 								<Link href={`/holiday_cottages`} >{t('domki')}</Link>
 							</li>
-							<li className={classes.nav_mobile__link} onClick={toggleNav}>
+							{/* <li className={classes.nav_mobile__link} onClick={toggleNav}>
 								<Link href={`/breakfasts`}>{t('sniadania')}</Link>
-							</li>
+							</li> */}
 							<li className={classes.nav_mobile__link} onClick={toggleNav}>
 								<Link href={`/pricing`}>{t('cennik')}</Link>
 							</li>
