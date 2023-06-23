@@ -19,7 +19,7 @@ const Nav_desktop = ({ locale, t }) => {
 				</Link>
 				<Link className={classes.nav_link} href={`/gallery`}>
 					{t('galeria')}
-				</Link>
+				</Link> 
 			</div>
 			
 				<Link href={`/`}>
