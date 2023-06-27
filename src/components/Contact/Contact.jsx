@@ -57,9 +57,9 @@ const Contact = () => {
 					<span className={classes.contact__item}>
 					ul. Wrzosowa 50{' '}
 					</span>
-					<span className={classes.contact__item}>
+					<a href='tel:+48518494880' target='_blank' className={classes.contact__item}>
 						<Image src={phone} alt='ikonka telefonu' width={30} /> 518 494 880{' '}
-					</span>
+					</a>
 					<span className={classes.contact__item}>
 						<Image src={email} alt='ikonka email' width={30} />booking@seasunsarbinowo.pl
 					</span>

@@ -31,7 +31,7 @@ const Footer = () => {
 					<div className={classes.footInfo__list}>
 						<span className={classes.footInfo__item}>ul. Wrzosowa 50</span>
 						<span className={classes.footInfo__item}>76-034 Sarbinowo</span>
-						<span className={classes.footInfo__item}>Tel: 518 494 880</span>
+						<a href='tel:+48518494880' target='_blank' className={classes.footInfo__item}>Tel: 518 494 880</a>
 						<span className={classes.footInfo__item}>booking@seasunsarbinowo.pl</span>
 					</div>
 				</div>
