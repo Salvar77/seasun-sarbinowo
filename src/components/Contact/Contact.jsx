@@ -57,7 +57,7 @@ const Contact = () => {
 					<span className={classes.contact__item}>
 					ul. Wrzosowa 50{' '}
 					</span>
-					<a href='tel:+48518494880' target='_blank' className={classes.contact__item}>
+					<a href='tel:+48518494880' target='_blank' rel="noreferrer" className={classes.contact__item}>
 						<Image src={phone} alt='ikonka telefonu' width={30} /> 518 494 880{' '}
 					</a>
 					<span className={classes.contact__item}>
