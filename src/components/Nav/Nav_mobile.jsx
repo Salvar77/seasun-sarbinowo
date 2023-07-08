@@ -48,7 +48,7 @@ function Nav_mobile({ locale }) {
 								<Link href={`/breakfasts`}>{t('sniadania')}</Link>
 							</li> */}
 							<li className={classes.nav_mobile__link} onClick={toggleNav}>
-								<Link href={`/pricing`}>{t('cennik')}</Link>
+								<Link href={`/pricing`}>{t('free')}</Link>
 							</li>
 							<li className={classes.nav_mobile__link} onClick={toggleNav}>
 								<Link href={`/gallery`}>{t('galeria')}</Link>
