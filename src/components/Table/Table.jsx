@@ -24,11 +24,11 @@ const Table = () => {
 			</tr>
 			<tr>
 				<td rowSpan='3'>{t('august')}</td>
-				<td>1-12</td>
+				<td>1-11</td>
 				<td>{t('brakmiejsca')}</td>
 			</tr>
 			<tr>
-				<td>13-20</td>
+				<td>12-20</td>
 				<td>550 zł {t('24h')}</td>
 			</tr>
 			<tr>
