@@ -29,7 +29,7 @@ const Table = () => {
 			</tr>
 			<tr>
 				<td>12-20</td>
-				<td>550 zł {t('24h')}</td>
+				<td>450 zł {t('24h')}</td>
 			</tr>
 			<tr>
 				<td>21-31</td>
