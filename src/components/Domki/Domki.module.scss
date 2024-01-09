@@ -5,9 +5,8 @@
 	z-index: -1;
 	filter: brightness(0.9);
 }
-.mainHero{
+.mainHero {
 	filter: brightness(0);
-
 }
 
 .heroText {
@@ -55,44 +54,44 @@
 	width: 100%;
 	height: 100%;
 
-	.imgBox{
+	.imgBox {
 		width: 100%;
 		height: 100%;
 	}
-	.image{
+	.image {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
 		aspect-ratio: 3/2;
 	}
 }
-.infog{
+.infog {
 	background-color: #dedede;
-    box-shadow: 0 0 0 100vmax #dedede;
-    clip-path: inset(0 -100vmax);
+	box-shadow: 0 0 0 100vmax #dedede;
+	clip-path: inset(0 -100vmax);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	.button{
-		margin: 2rem 0 4rem 0;
-		background-color: #BF9B2E;
-		color: #fff;
-		font-family: 'cormorant garamond', serif;
-		padding: 1rem 2rem;
-		border-radius: 5px;
-		font-size: 2.8rem;
-		font-weight: 700;
-		transition: bacground-color 0.3s ease-in-out, color 0.3s ease-in-out;
-		&:hover{
-			background-color: #fff;
-			color: #BF9B2E;
-			cursor: pointer;
-		}
-
+}
+.button {
+	margin: 2rem 0 4rem 0;
+	background-color: #bf9b2e;
+	color: #fff;
+	font-family: 'cormorant garamond', serif;
+	padding: 1rem 2rem;
+	border-radius: 5px;
+	font-size: 2.8rem;
+	font-weight: 700;
+	transition: bacground-color 0.3s ease-in-out, color 0.3s ease-in-out;
+	&:hover {
+		background-color: #fff;
+		color: #bf9b2e;
+		cursor: pointer;
 	}
 }
-.infoGraph{
+
+.infoGraph {
 	width: 100%;
 	max-width: 1440px;
 	margin: 3rem auto;
@@ -102,7 +101,7 @@
 	align-items: center;
 	flex-wrap: wrap;
 
-	&__item{
+	&__item {
 		display: flex;
 		width: 100%;
 		max-width: 300px;
@@ -110,29 +109,27 @@
 		justify-content: center;
 		flex-direction: column;
 		margin: 1rem;
-		@media (max-width: 768px){
-			max-width: 250px
+		@media (max-width: 768px) {
+			max-width: 250px;
 		}
-	
-		&__img{
+
+		&__img {
 			margin: 1rem 0;
 		}
-		&__text{
+		&__text {
 			font-size: 1.6rem;
 			text-align: center;
-			h3{
+			h3 {
 				font-size: 2.4rem;
 				font-family: 'cormorant garamond', serif;
 				font-weight: 600;
 				color: #836c27;
 			}
-			p{
+			p {
 				margin: 1rem 0;
-
 			}
 		}
 	}
-
 }
 .heroImg {
 	position: relative;
@@ -146,7 +143,7 @@
 		height: 100%;
 		object-fit: cover;
 	}
-    &__b{
-        height: 60vh;
-    }
+	&__b {
+		height: 60vh;
+	}
 }

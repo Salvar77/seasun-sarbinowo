@@ -1,9 +1,9 @@
 import '/styles/globals.scss';
 import Head from 'next/head';
-import { appWithTranslation } from 'next-i18next';
 import Footer from '@/components/Footer/Footer';
 import Nav from '@/components/Nav/Nav';
 import Script from 'next/script';
+import { appWithTranslation } from 'next-i18next';
 
 const MyApp = ({ Component, pageProps }) => {
 	const locale = pageProps.locale;

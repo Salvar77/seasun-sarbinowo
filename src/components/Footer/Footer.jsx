@@ -14,7 +14,7 @@ const Footer = () => {
 	return (
 		<>
 			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2331.524022406562!2d15.96716313510059!3d54.24161225568549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4700302d1277f41f%3A0x40452a450b9559f6!2sWrzosowa%2050%2C%2076-034!5e0!3m2!1spl!2spl!4v1685554036594!5m2!1spl!2spl"
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4662.96639915077!2d15.967318633527032!3d54.24233467329325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470031d9ea6863bd%3A0x667a0820eb7edf0b!2sSea%20and%20Sun%20Sarbinowo!5e0!3m2!1spl!2spl!4v1704829407684!5m2!1spl!2spl"
 				title='mapa lokalizacji'
 				allowFullScreen=''
 				className={classes.map}

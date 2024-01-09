@@ -3,7 +3,6 @@ import nodemailer from 'nodemailer';
 export default async function handler(req, res) {
   if (req.method === 'POST') {
     const { name, email, message, phone } = req.body;
-    console.log(name, email, message, phone);
 
     let transporter = nodemailer.createTransport({
       host: 'ssl0.ovh.net',

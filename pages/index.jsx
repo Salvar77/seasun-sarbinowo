@@ -7,6 +7,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import outside from '@/assets/images/outside.jpg';
 import Image from 'next/image';
 import Table from '@/components/Table/Table';
+import Opinions from '@/components/Opinions/Opinions';
 
 export async function getStaticProps({ locale }) {
 	return {
@@ -36,6 +37,8 @@ export default function Home() {
 			
 			<Domki />
 			<Table />
+			<Opinions />
+			
 		</>
 	);
 }

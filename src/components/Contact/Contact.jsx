@@ -10,7 +10,7 @@ const Contact = () => {
 	const [enteredName, setEnteredName] = useState('');
 	const [enteredEmail, setEnteredEmail] = useState('');
 	const [enteredMessage, setEnteredMessage] = useState('');
-	const [enteredPhone, setEnteredPhone] = useState(null);
+	const [enteredPhone, setEnteredPhone] = useState('');
     const [pending, setPending] = useState(false);
 	const form = useRef();
 

@@ -1,7 +1,7 @@
 
 {
     "title": "Regulamin",
-    "p1": "§1 Warunkiem pełnej rezerwacji jest wpłacenie zadatku w wysokości 30% kosztów pobytu w terminie podanym w potwierdzeniu rezerwacji. Resztę należności za zamówiony pobyt pobieramy w dniu przyjazdu. Cena na pobyt nie podlega zwrotowi w przypadku skrócenia pobytu.",
+    "p1": "§1 Warunkiem pełnej rezerwacji jest wpłacenie zadatku w wysokości 40% kosztów pobytu w terminie podanym w potwierdzeniu rezerwacji. Resztę należności za zamówiony pobyt pobieramy w dniu przyjazdu. Cena na pobyt nie podlega zwrotowi w przypadku skrócenia pobytu.",
     "p2": "§2 Dokonanie rezerwacji jest równoznaczne z zapoznaniem się i akceptacją regulaminu ośrodka.",
     "p3": "§3 Doba noclegowa rozpoczyna się od godz. 16.00 w dniu przyjazdu, a kończy się o godz. 10.00 w dniu wyjazdu. Nie ma możliwości wcześniejszego zameldowania. Niezdanie domku do godziny 10.00 skutkować będzie pobraniem dodatkowej opłaty w wysokości 100 zł za każdą rozpoczętą godzinę.",
     "p4": "§4 Dla komfortu wypoczywających cisza nocna obowiązuje w godzinach 22.00-8.00.",
@@ -10,8 +10,8 @@
     "p7": "§7 Zabrania się używania otwartego ognia, palenia tytoniu, świeczek, używania własnych urządzeń typu grill elektryczny, grzejnik, grzałka itp. Złamanie tego zakazu będzie skutkować dopłatą w kwocie 500 zł.",
     "p8": "§8 Nie odpowiadamy za przedmioty wartościowe pozostawione w domkach oraz parkujące samochody.",
 
-    "p9": "§9 Samochody należy parkować wyłącznie w miejscach wyznaczonych do tego celu. Parking dla naszych gości jest bezpłatny. Przewidziano jedno bezpłatne miejsce parkingowe na domek. Miejsce parkingowe na każde kolejne auto płatne jest 10 zł za dobę. Ilość miejsca parkingowych jest ograniczona dlatego możliwość zaparkowania kolejnego auta należy uzgodnić podczas rezerwacji.",
-    "p10": "§10 Za pobyt dodatkowych osób pobierana jest dodatkowa opłata w wysokości 50 zł za dobę (możliwość zakwaterowania kolejnych osób należy ustalić z właścicielem ośrodka przed przyjazdem).",    
+    "p9": "§9 Samochody należy parkować wyłącznie w miejscach wyznaczonych do tego celu. Parking dla naszych gości jest bezpłatny. Przewidziano jedno bezpłatne miejsce parkingowe na domek. Miejsce parkingowe na każde kolejne auto płatne jest 25 zł za dobę. Ilość miejsca parkingowych jest ograniczona dlatego możliwość zaparkowania kolejnego auta należy uzgodnić podczas rezerwacji.",
+    "p10": "§10 Za pobyt dodatkowych osób pobierana jest dodatkowa opłata w wysokości 70 zł za dobę (możliwość zakwaterowania kolejnych osób należy ustalić z właścicielem ośrodka przed przyjazdem).",    
     "p11": "§11 Przekazanie i zdanie domku następuje w obecności właściciela lub osoby do tego wyznaczonej przez właściciela ośrodka.",
     "p12": "§12 Zabawa dzieci na terenie ośrodka powinna odbywać się wyłącznie pod opieką dorosłych (rodziców lub opiekunów).",
     "p13": "§13 Osoby postronne nie mogą przebywać na terenie ośrodka od godz. 21:00 do godz. 8:00. W pozostałych godzinach tylko za zgodą właściciela ośrodka. Za nocowanie osoby niezgłoszonej pobierana będzie opłata w wysokości 300zł/dobę.",
@@ -36,8 +36,13 @@
     "p30": "Dodatkowe opłaty:",
     "p30.1" : "• W cenę najmu nie jest wliczona opłata klimatyczna pobierana w dniu przyjazdu (opłata wg Uchwały Rady Miasta Mielno).",
     "p30.2" : "• W dniu przyjazdu pobierana jest kaucja zwrotna w wysokości 500 zł na wypadek dokonania szkód.",
-    "p30.3" : "• W dniu wyjazdu pobierana jest opłata za zużytą energię elektryczną 1KWh/3zł (wg wskazań licznika).",
-    "p30.4" : "• W dniu przyjazdu pobierana jest opłata za sprzątanie w wysokości 180 zł.",
+    "p30.3" : "• W dniu wyjazdu pobierana jest opłata za zużytą energię elektryczną 1KWh/2.50zł (wg wskazań licznika).",
+    "p30.4" : "• W dniu przyjazdu pobierana jest opłata za sprzątanie w wysokości 280 zł.",
+    "p30.5" : "• Miejsce parkingowe na każde auto powyżej jednego płatne jest 25 zł za dobę.",
+    "p30.6" : "• Za pobyt dodatkowych osób(powyżej pięciu) pobierana jest dodatkowa opłata w wysokości 70 zł za dobę.",
+    "p30.7" : "• Za pobyt każdego zwierzęcia pobierana jest opłata 25 zł za dobę.",
+
+
     "p31": "Dokłądamy starań aby Państwa pobyt w naszym ośrodku był udany jednak jeżeli mają Państwo jakieś uwagi prosimy przekazywać je do naszej obsługi lub na e-mail: booking@seasunsarbinowo.pl",
     "p32": "Telefony alarmowe:",
     "p32.1" : "• POGOTOWIE RATUNKOWE: 999 lub 112",
