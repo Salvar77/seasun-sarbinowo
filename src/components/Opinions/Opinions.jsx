@@ -36,14 +36,14 @@ const Opinions = () => {
 				},
 			},
 			{
-				breakpoint: 1024,
+				breakpoint: 1224,
 				settings: {
 					slidesToShow: 3,
 					slidesToScroll: 1,
 				},
 			},
 			{
-				breakpoint: 600,
+				breakpoint: 900,
 				settings: {
 					slidesToShow: 2,
 					slidesToScroll: 1,
@@ -51,7 +51,7 @@ const Opinions = () => {
 				},
 			},
 			{
-				breakpoint: 480,
+				breakpoint: 540,
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
