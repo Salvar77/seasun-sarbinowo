@@ -43,6 +43,9 @@ const Statute = () => {
         <p className={classes.statute_text}>{t('p30.2')}</p>
         <p className={classes.statute_text}>{t('p30.3')}</p>
         <p className={classes.statute_text}>{t('p30.4')}</p>
+        <p className={classes.statute_text}>{t('p30.5')}</p>
+        <p className={classes.statute_text}>{t('p30.6')}</p>
+        <p className={classes.statute_text}>{t('p30.7')}</p>
         <p className={classes.statute_text}>{t('p31')}</p>
         <p className={classes.statute_text}><b> {t('p32')}</b> </p>
         <p className={classes.statute_text}>{t('p32.1')}</p>
