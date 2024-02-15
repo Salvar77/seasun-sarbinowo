@@ -26,7 +26,7 @@ const Table = () => {
 			<tr>
 				<td rowSpan='3'>{t('july')}</td>
 				<td>1-5</td>
-				<td>550 zł {t('24h')}</td>
+				<td>490 zł {t('24h')}</td>
 			</tr>
 			<tr>
 				<td> 6-12</td>
