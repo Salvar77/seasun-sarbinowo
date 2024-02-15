@@ -1,4 +1,5 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import Opinions from '@/components/Opinions/Opinions'
 export async function getStaticProps({ locale }) {
 	return {
 	  props: {
@@ -16,7 +17,10 @@ import Table from '@/components/Table/Table'
 
 const index = () => {
   return (
+	<>
    <Table />
+   <Opinions />
+	</>
   )
 }
 
