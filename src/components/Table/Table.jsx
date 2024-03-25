@@ -20,17 +20,17 @@ const Table = () => {
 			<tr>
 				<td rowSpan='1'>{t('june')}</td>
 				<td>28-30</td>
-				<td>490 zł {t('24h')}</td>
+				<td>440 zł {t('24h')}</td>
 				{/* <td>{t('brakmiejsca')}</td> */}
 			</tr>			
 			<tr>
 				<td rowSpan='3'>{t('july')}</td>
 				<td>1-5</td>
-				<td>490 zł {t('24h')}</td>
+				<td>440 zł {t('24h')}</td>
 			</tr>
 			<tr>
 				<td> 6-12</td>
-				<td>550 zł {t('24h')}</td>
+				<td>490 zł {t('24h')}</td>
 			</tr>
 			<tr>
 				<td>13-31</td>
@@ -43,7 +43,7 @@ const Table = () => {
 			</tr>
 			<tr>
 				<td>19-25</td>
-				<td>490 zł {t('24h')}</td>
+				<td>440 zł {t('24h')}</td>
 			</tr>
 			<tr>
 				<td>26-31</td>
