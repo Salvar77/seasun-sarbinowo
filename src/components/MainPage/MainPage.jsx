@@ -19,7 +19,7 @@ const MainPage = () => {
 			</Link>
 
 			<div className={classes.iconBox}>
-				<Link
+				{/* <Link
 					href='https://www.facebook.com/profile.php?id=100093032916839'
 					target='_blank'
 					className={classes.icon}
@@ -32,7 +32,7 @@ const MainPage = () => {
 					className={classes.icon}
 				>
 					<Image src={igIcon} alt='Instagram' width={48} height={48} />
-				</Link>
+				</Link> */}
 				<Link href='/contact' className={classes.icon}>
 					<Image src={phone} alt='Telefon' width={48} height={48} />
 				</Link>
