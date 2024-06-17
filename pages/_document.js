@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import Script from "next/script";
 
 export default function Document({ locale }) {
   return (
@@ -28,16 +27,16 @@ export default function Document({ locale }) {
         <link rel="icon" href="/favicon.ico" />
 
         {/* Skrypt Cookiebot */}
-        <Script
+        <script
           id="Cookiebot"
           src="https://consent.cookiebot.com/uc.js"
           data-cbid="d0623314-adf7-4eb7-ace5-94bb882f9554"
           type="text/javascript"
           async
-        ></Script>
+        ></script>
 
         {/* Google Tag Manager */}
-        <Script
+        <script
           dangerouslySetInnerHTML={{
             __html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
