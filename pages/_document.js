@@ -4,6 +4,15 @@ export default function Document({ locale }) {
   return (
     <Html lang={locale}>
       <Head>
+        {/* Skrypt Cookiebot */}
+        <script
+          id="Cookiebot"
+          src="https://consent.cookiebot.com/uc.js"
+          data-cbid={process.env.COOKIEBOT_SECRET_KEY}
+          type="text/javascript"
+          async
+        ></script>
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -25,15 +34,6 @@ export default function Document({ locale }) {
           content="domki letniskowe, wakacje, plaża, komfort, prywatność, parking, WiFi, klimatyzacja, plac zabaw, ogródek z tarasem, monitorowanie, bliskość plaży, Smart TV, rezerwacja"
         />
         <link rel="icon" href="/favicon.ico" />
-
-        {/* Skrypt Cookiebot */}
-        <script
-          id="Cookiebot"
-          src="https://consent.cookiebot.com/uc.js"
-          data-cbid="d0623314-adf7-4eb7-ace5-94bb882f9554"
-          type="text/javascript"
-          async
-        ></script>
 
         {/* Google Tag Manager */}
         <script
