@@ -28,13 +28,13 @@ export default function Document({ locale }) {
         <link rel="icon" href="/favicon.ico" />
 
         {/* Skrypt Cookiebot */}
-        <Scriptcript
+        <Script
           id="Cookiebot"
           src="https://consent.cookiebot.com/uc.js"
           data-cbid="d0623314-adf7-4eb7-ace5-94bb882f9554"
           type="text/javascript"
           async
-        ></Scriptcript>
+        ></Script>
 
         {/* Google Tag Manager */}
         <Script
