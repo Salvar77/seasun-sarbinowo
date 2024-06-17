@@ -16,12 +16,6 @@ const MyApp = ({ Component, pageProps }) => {
           name="viewport"
           content="width=device-width,height=device-height , initial-scale=1"
         />
-        <script
-          id="Cookiebot"
-          src="https://consent.cookiebot.com/uc.js"
-          data-cbid="d0623314-adf7-4eb7-ace5-94bb882f9554"
-          type="text/javascript"
-        ></script>
       </Head>
       <Script
         async
