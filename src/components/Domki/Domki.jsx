@@ -137,7 +137,7 @@ const Domki = () => {
       <div className={classes.info}>
         <p>{t("cottages_text1")}</p>
         <p>{t("cottages_text2")}</p>
-        <p>{t("cottages_text3")}</p>
+
         <p>{t("cottages_text4")}</p>
 
         <p>{t("cottages_text5")}</p>

@@ -16,36 +16,23 @@ const Table = () => {
           </tr>
 
           <tr>
-            <td rowSpan="2">{t("june")}</td>
-            <td>1-23</td>
-            <td>320 zł {t("24h")}</td>
-            {/* <td>{t('brakmiejsca')}</td> */}
-          </tr>
-          <tr>
-            <td>24-30</td>
-            <td>370 zł {t("24h")}</td>
-          </tr>
-          <tr>
             <td rowSpan="3">{t("july")}</td>
-            <td>1-5</td>
-            <td>390 zł {t("24h")}</td>
+            <td>1-7</td>
+            <td>350 zł {t("24h")}</td>
           </tr>
           <tr>
-            <td> 6-12</td>
-            <td>450 zł {t("24h")}</td>
+            <td> 8-31</td>
+            <td>490 zł {t("24h")}</td>
           </tr>
-          <tr>
-            <td>13-31</td>
-            <td>550 zł {t("24h")}</td>
-          </tr>
+          <tr></tr>
           <tr>
             <td rowSpan="3">{t("august")}</td>
             <td>1-18</td>
-            <td>550 zł {t("24h")}</td>
+            <td>490 zł {t("24h")}</td>
           </tr>
           <tr>
             <td>19-25</td>
-            <td>440 zł {t("24h")}</td>
+            <td>390 zł {t("24h")}</td>
           </tr>
           <tr>
             <td>26-31</td>
