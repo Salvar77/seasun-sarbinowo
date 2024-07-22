@@ -22,17 +22,17 @@ const Table = () => {
           </tr>
           <tr>
             <td> 8-31</td>
-            <td>490 zł {t("24h")}</td>
+            <td>590 zł {t("24h")}</td>
           </tr>
           <tr></tr>
           <tr>
             <td rowSpan="3">{t("august")}</td>
             <td>1-18</td>
-            <td>490 zł {t("24h")}</td>
+            <td>590 zł {t("24h")}</td>
           </tr>
           <tr>
             <td>19-25</td>
-            <td>390 zł {t("24h")}</td>
+            <td>440 zł {t("24h")}</td>
           </tr>
           <tr>
             <td>26-31</td>
