@@ -8,6 +8,7 @@ export default function Document({ locale }) {
         <script
           id="Cookiebot"
           src="https://consent.cookiebot.com/uc.js"
+          data-blockingmode="auto"
           data-cbid={process.env.COOKIEBOT_SECRET_KEY}
           type="text/javascript"
           async
