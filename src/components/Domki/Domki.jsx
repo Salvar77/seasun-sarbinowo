@@ -1,6 +1,7 @@
 import classes from "./Domki.module.scss";
 import Link from "next/link";
 import Image from "next/image";
+import ImgNew from "@/assets/images/Instagram-Story-Template-1.png";
 import Img1 from "@/assets/images/Sea_Sun_www-1.jpg";
 import Img2 from "@/assets/images/Sea_Sun_www-2.jpg";
 import Img3 from "@/assets/images/Sea_Sun_www-3.jpg";
@@ -36,6 +37,10 @@ import { useTranslation } from "next-i18next";
 const Domki = () => {
   const { t } = useTranslation("cottages");
   const images = [
+    {
+      src: ImgNew,
+      alt: "Sea & Sun - domki letniskowe Sarbinowo",
+    },
     {
       src: Img1,
       alt: "Sea & Sun - domki letniskowe Sarbinowo",
@@ -147,7 +152,13 @@ const Domki = () => {
       <Slider {...settings} className={classes.carousel}>
         {images.map((image) => (
           <div key={image.src} className={classes.imgBox}>
-            <Image src={image.src} alt={image.alt} className={classes.image} />
+            <Image
+              src={image.src}
+              alt={image.alt}
+              className={`${classes.image} ${
+                image.src === ImgNew ? classes.contain : ""
+              }`}
+            />
           </div>
         ))}
       </Slider>

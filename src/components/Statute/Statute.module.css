@@ -1,0 +1,22 @@
+.statute_container {
+  width: 96%;
+  margin: 5rem auto;
+  max-width: 1200px;
+  padding: 1rem;
+}
+
+.statute_maintitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 2rem;
+}
+.statute_title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #000;
+  margin: 1rem 0;
+}
+.statute_text {
+  font-size: 1.4rem;
+}/*# sourceMappingURL=Statute.module.css.map */

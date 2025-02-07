@@ -1,0 +1,127 @@
+.contact {
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact__header {
+  text-align: center;
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin-bottom: 2rem;
+}
+.contact__paragraph {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.contact .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex: 1;
+}
+@media (min-width: 992px) {
+  .contact .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.contact__title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-family: cantora one, sans-serif;
+  text-align: center;
+  margin-bottom: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contact__title {
+  font-family: "cormorant garamond", serif;
+  font-size: clamp(2rem, 5vw, 2.6rem);
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.contact img {
+  margin-right: 1rem;
+}
+.contact__item {
+  display: flex;
+  justify-self: start;
+  align-items: center;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  padding: 0.5em;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 8rem;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  .contact__form {
+    padding-top: 5rem;
+  }
+}
+.contact__form__label {
+  font-size: clamp(1.5rem, 5vw, 1.8rem);
+}
+.contact__form__input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.contact__form__input:focus {
+  border-bottom: 1px solid rgb(117, 117, 117);
+}
+.contact__form__textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 150px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.contact__form__textarea:focus {
+  border-bottom: 1px solid rgb(117, 117, 117);
+}
+.contact__form__button {
+  align-self: flex-end;
+  width: 50%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: backgroud-color 0.3s ease;
+}
+.contact__form__button:hover {
+  background-color: rgb(59, 59, 59);
+}/*# sourceMappingURL=contact.module.css.map */

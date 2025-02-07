@@ -1,0 +1,54 @@
+.breakfasts__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+  max-width: 1200px;
+}
+@media (max-width: 992px) {
+  .breakfasts__container {
+    flex-direction: column;
+  }
+}
+.breakfasts__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 0 2rem;
+}
+@media (max-width: 992px) {
+  .breakfasts__info {
+    width: 100%;
+  }
+}
+.breakfasts__imgBox {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 992px) {
+  .breakfasts__imgBox {
+    width: 100%;
+  }
+}
+.breakfasts__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.breakfasts__title {
+  font-family: "cormorant garamond", serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.breakfasts__text {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=Breakfasts.module.css.map */
