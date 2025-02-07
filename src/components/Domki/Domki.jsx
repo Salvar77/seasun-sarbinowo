@@ -1,7 +1,7 @@
 import classes from "./Domki.module.scss";
 import Link from "next/link";
 import Image from "next/image";
-import ImgNew from "@/assets/images/Instagram-Story-Template-1.png";
+import ImgNew1 from "@/assets/images/Instagram-Story-Template-1.png";
 import Img1 from "@/assets/images/Sea_Sun_www-1.jpg";
 import Img2 from "@/assets/images/Sea_Sun_www-2.jpg";
 import Img3 from "@/assets/images/Sea_Sun_www-3.jpg";
@@ -38,7 +38,7 @@ const Domki = () => {
   const { t } = useTranslation("cottages");
   const images = [
     {
-      src: ImgNew,
+      src: ImgNew1,
       alt: "Sea & Sun - domki letniskowe Sarbinowo",
     },
     {
@@ -156,7 +156,7 @@ const Domki = () => {
               src={image.src}
               alt={image.alt}
               className={`${classes.image} ${
-                image.src === ImgNew ? classes.contain : ""
+                image.src === ImgNew1 ? classes.contain : ""
               }`}
             />
           </div>
